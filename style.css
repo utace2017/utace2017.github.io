@@ -18,13 +18,12 @@ p{
   font-size: calc(0.3em + 0.8vw);
   text-align: justify;
   text-justify: inter-character;
-  margin-left: 0.00005px;
 
 }
 
 
 #pcontact{
-    font-size: calc(0.5em + 1vw);
+    font-size: calc(0.2em + 1vw);
 
 }
 /*
