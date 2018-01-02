@@ -7,19 +7,26 @@ body {
 
 
 h3, h4 {
-  margin: 10px 0 30px 0;
-  letter-spacing: 10px;      
-  font-size: 140%;
+  margin: calc(0.3em + 1vw) 0 30px 0;
+  letter-spacing: calc(0.1em + 0.8vw);     
+  font-size: calc(0.3em + 1vw);  /*deal with viewport*/
   color: #111;
   padding-top: 40px;
 }
 
 p{
-  font-size: 110%;
+  font-size: calc(0.3em + 0.8vw);
   text-align: justify;
-  text-justify: inter-word;
+  text-justify: inter-character;
+  margin-left: 0.00005px;
+
 }
 
+
+#pcontact{
+    font-size: calc(0.5em + 1vw);
+
+}
 /*
 
 @media (max-width: 200px){
